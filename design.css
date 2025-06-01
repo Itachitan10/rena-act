@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #ddd;
+    width: 300px;
+    text-align: center;
+    padding: 50px;
+border-radius: 100px 10px;
+background-color: #333;
+
+}
+
+h1 {
+    color: #e2d6d6;
+}
+
+#task {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#btn {
+    margin-top: 10px;
+    padding: 10px;
+    color: yellowgreen;
+    font-style: italic;
+    background-color: rgb(61, 33, 33);
+    font-weight: bolder;
+    border-radius: 10px;
+
+   
+}
+
+#btn:hover {
+    background:rgb(14, 168, 37);
+    color: black;
+}
+
+#btn-success {
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+    width: 80px;
+    font-weight: bolder;
+    font-style: italic;
+    border: none;
+    cursor: pointer;
+}
+
+
+#btn-success:hover{ 
+    background-color: red;
+    color: white;
+    transition-duration: 1s;
+}
+
+#btn-cancel {
+    transition-duration: 1s;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-style: italic;
+}
+
+
+#btn-cancel:hover{ 
+    background-color: black;
+    color: white;
+}
+
+
+#btn-danger {
+    margin-top: 3%;
+    background: #ff0000;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+
+.task-table {
+    padding-top: 100px;
+    margin-top: 30px;
+    width: 80%;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+ 
+    text-align: center;
+    border-radius: 100px 10px;
+    height: 300px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background: #000000;
+    color: white;
+}
